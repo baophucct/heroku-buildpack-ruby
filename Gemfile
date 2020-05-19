@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.5'
 
 group :development, :test do
-  gem "heroku_hatchet"
+  gem "heroku_hatchet", ">= 4.0.5"
   gem "rspec-core"
   gem "rspec-expectations"
   gem "excon"
